@@ -129,6 +129,8 @@ a {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 104px;
+    /* добавил по уроку, проверить */
+    gap: 32px
 }
 
 .line {
@@ -140,12 +142,15 @@ a {
     max-width: 539px;
 }
 
-.content_first_info_title {
+.title {
     font-weight: 700;
     font-size: 42px;
+    text-transform: uppercase;
+}
+
+.content_first_info_title {
     line-height: 55px;
     letter-spacing: 0.422159px;
-    text-transform: uppercase;
     max-width: 523px;
     margin-bottom: 51px;
 }
@@ -216,11 +221,8 @@ a {
 }
 
 .content_title {
-    font-weight: 700;
-    font-size: 42px;
     line-height: 0px;
     letter-spacing: 0.3834px;
-    text-transform: uppercase;
     margin-bottom: 29px;
 }
 
@@ -340,10 +342,11 @@ a {
     background: #000000;
     mix-blend-mode: normal;
     opacity: 0.5;
-    width: 188.5px;
+    width: 188.4px;
     height: 36.84px;
     top: 178px;
     left: 2px;
+
 
     content: 'sokina jue';
     font-style: italic;
@@ -436,6 +439,8 @@ a {
 }
 
 .five_title {
+    line-height: 0px;
+    letter-spacing: 0.3834px;
     margin-bottom: 46px;
     text-align: start;
 }
@@ -465,7 +470,7 @@ a {
     height: 69px;
     border: none;
     font-weight: 400;
-        font-size: 16px;
+    font-size: 16px;
 }
 
 .content_five_form_input::placeholder {
@@ -486,7 +491,7 @@ a {
     color: #000000;
     border: none;
     font-weight: 400;
-        font-size: 16px;
+    font-size: 16px;
 }
 
 .content_five_form_textarea::placeholder {
@@ -518,11 +523,9 @@ a {
 }
 
 .content_five_contacts_info_title {
-    font-weight: 700;
-    font-size: 17.9026px;
+    font-size: 18px;
     line-height: 34px;
     letter-spacing: 0.317046px;
-    text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 31px;
 }
@@ -546,8 +549,6 @@ a {
 
 .footer {
     background: #313030;
-    display: flex;
-    justify-content: center;
     padding-top: 48px;
     padding-bottom: 32px;
 }
@@ -556,8 +557,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1247px;
-
 }
 
 .footer_copyright {
